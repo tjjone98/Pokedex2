@@ -15,7 +15,7 @@ class App extends Component {
               key="list_pokemon"
               component={ListPokemon}
               title="Pokedex"
-              initial
+              navBar={Navbar}
             />
             <Scene key="detail_pokemon" component={DetailPokemon} title="" />
           </Scene>
